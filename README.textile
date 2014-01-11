@@ -1,0 +1,4 @@
+
+h1. WorldWind Android
+
+* Removed DDS requirement
