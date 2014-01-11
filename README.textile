@@ -6,6 +6,7 @@ h1. WorldWind Android
 TODO: 
  - Add Mercator layer from WW 1.5
  - Memory test
+ - On tap/longpress listeners
  - Marker layer
  - Drawing layer
  - MIL2525
