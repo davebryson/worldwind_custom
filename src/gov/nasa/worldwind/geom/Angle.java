@@ -13,6 +13,33 @@ import gov.nasa.worldwind.util.Logging;
  */
 public class Angle
 {
+	/** Represents an angle of zero degrees */
+    public final static Angle ZERO = Angle.fromDegrees(0);
+
+    /** Represents a right angle of positive 90 degrees */
+    public final static Angle POS90 = Angle.fromDegrees(90);
+
+    /** Represents a right angle of negative 90 degrees */
+    public final static Angle NEG90 = Angle.fromDegrees(-90);
+
+    /** Represents an angle of positive 180 degrees */
+    public final static Angle POS180 = Angle.fromDegrees(180);
+
+    /** Represents an angle of negative 180 degrees */
+    public final static Angle NEG180 = Angle.fromDegrees(-180);
+
+    /** Represents an angle of positive 360 degrees */
+    public final static Angle POS360 = Angle.fromDegrees(360);
+
+    /** Represents an angle of negative 360 degrees */
+    public final static Angle NEG360 = Angle.fromDegrees(-360);
+
+    /** Represents an angle of 1 minute */
+    public final static Angle MINUTE = Angle.fromDegrees(1d / 60d);
+
+    /** Represents an angle of 1 second */
+    public final static Angle SECOND = Angle.fromDegrees(1d / 3600d);
+    
     protected static final double DEGREES_TO_RADIANS = Math.PI / 180d;
     protected static final double RADIANS_TO_DEGREES = 180d / Math.PI;
 
